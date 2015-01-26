@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Time Adder</title>
+<link rel="stylesheet" href="adder.css">
+</head>
+<body>
+<h1>Time Adder</h1>
+
+<p>Adds time of form: [hours.][minutes.]seconds. (Hours and minutes are optional). Press + or Enter to complete an entry.</p>
+
+<div id="entry">&nbsp;<br>
+<input type="text" name="time" id="time"><br>
+<button id="clearlast">Clear Last</button> <button id="clearall">Clear All</button>
+</div><div id="display">
+<b>Total: </b><span id="total">00:00:00</span><br>
+<textarea id="tlist"></textarea>
+</div>
+
+<script src="adder.js"></script>
+</body>
+</html>

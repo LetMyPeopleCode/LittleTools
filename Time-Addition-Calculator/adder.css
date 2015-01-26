@@ -1,0 +1,24 @@
+#entry{
+	width:300px;
+	float: left;
+	border: none;
+	padding-left:40px;
+	margin-left:80px;
+}
+
+#display{
+	width: 300px;
+	padding-left: 20px;
+	float: left;
+	min-height:450px;
+	height:450px;
+	border: none;
+}
+
+#tlist{
+	width:175px;
+	height:400px;
+	min-height:400px;
+	overflow-y: auto;
+	border: 1px solid black;
+}
