@@ -17,7 +17,7 @@ clearlast.addEventListener('click',removetime);
 clearall.addEventListener('click',removeall);
 
 function keyhandler(evt){
-	if((evt.key=="Add")||(evt.key=="Enter")||(evt.char=="+")) {
+	if((evt.charCode==13)||(evt.charCode==43)||(evt.charCode==107)||(evt.keyCode==13)||(evt.keyCode==43)||(evt.keyCode==107)||(evt.char=="+")) {
 		addtime();
 	}
 	return false;
@@ -25,7 +25,7 @@ function keyhandler(evt){
 
 
 function keyprevent(evt){
-	if((evt.key=="Add")||(evt.key=="Enter")||(evt.char=="+")) {
+	if((evt.charCode==13)||(evt.charCode==43)||(evt.charCode==107)||(evt.keyCode==13)||(evt.keyCode==43)||(evt.keyCode==107)||(evt.char=="+")) {
 		evt.preventDefault();
 	}
 }
@@ -34,7 +34,7 @@ function addtime(){
 	//make sure it's just numbers and dots
 	var input = time.value;
 	var matcher = /^[\d\.]+$/;
-	if (input.match(matcher)){
+	if (input.match(matcher)){ 
 		var seconds = countseconds(input);
 		times.push(seconds);
 		updatedisplay();
