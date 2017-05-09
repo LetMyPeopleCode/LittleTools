@@ -2,8 +2,6 @@
  *
  * smallrecorder.js is a fork of Matt Diamond's Recorder.js, adapted to put
  * out a 16k mono WAV rather than 44k stereo.
- *
- * Author: Greg Bulmash (bulmashg@amazon.com)
  * 
  * Sourced bits of code from:
  *     Recorder.js: https://github.com/mattdiamond/Recorderjs
