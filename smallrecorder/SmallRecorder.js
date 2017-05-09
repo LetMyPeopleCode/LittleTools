@@ -9,6 +9,7 @@
  *     hkuhn42: https://github.com/hkuhn42/Recorderjs/tree/hkuhn4-downsample
  *
  * Licensed under MIT to remain consistent with original Recorder.js license
+ * See readme.md for copy of MIT License statement
  *
  ***********************************************************************/
 
